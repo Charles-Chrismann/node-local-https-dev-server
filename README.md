@@ -1,5 +1,8 @@
 # node-local-https-dev-server
 
+> [!WARNING]
+> If you are a developer passing by, what you are probably looking for is already provided by [Vite](https://vite.dev/config/server-options.html#server-https).
+
 This is a simple local https server.
 
 It was initially created in order to be able to use certain js front-end functionalities which require the https protocol to operate, such as the browser sensor API. Connecting to this url will be considered non-private or dangerous by browsers.
